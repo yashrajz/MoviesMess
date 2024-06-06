@@ -166,15 +166,15 @@ nav {
     align-items: center;
     margin-right: 20px;
 }
-.banner-card, .card-info ion-icon {
+.banner-card .card-info ion-icon {
     font-size: 20px;
     color: var(--azure);
     margin-right: 5px;
 }
-.banner-card, .card-info span{
+.banner-card .card-info span{
     font-weight: var(--fw-6);
 }
-.banner-card, .card-info .quality {
+.banner-card .card-info .quality {
     background: var(--azure);
     padding: 2px 5px;
     border-radius: 5px;
@@ -183,5 +183,5 @@ nav {
 .banner-card .card-title {
     font-size: 3em;
     color: var(--white);
-    text-shadow: 2px 0px 2px #0007;
+    text-shadow: 2px 0 2px #0007;
 }
