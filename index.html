@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix</title>
+
+    <!-- css file attached -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/media_query.css">
+
+    <!-- google font attached -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container">
+        <!-- header section  -->
+
+        <header>
+            <div class="navbar">
+                <!-- menu buttons -->
+
+                <button class="navbar-menu-btn">
+                    <span></span><span></span><span></span>
+                </button>
+
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/images/logo.png" alt="">
+                </a>
+
+                <!-- navbar navigation -->
+                <nav>
+                    <ul class="navbar-nav">
+                        <li><a href="#" class="navbar-link">Home</a></li>
+                        <li><a href="#Category" class="navbar-link">Category</a></li>
+                        <li><a href="#Live" class="navbar-link indicator">LIVE</a></li>
+                    </ul>
+                </nav>
+                <!-- search and sign-in -->
+                 <div class="navbar-actions">
+                    <form action="#" class="navbar-form">
+                        <input type="text" name="search" placeholder="I'm Looking for ..." class="navbar-form-search">
+                    
+                        <button class="navbar-form-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+                    <!-- search button for small screen -->
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+
+                    <a href="#" class="navbar-signin">
+                        <span>Sign in</span>
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </a>
+
+                 </div>
+            </div>
+        </header>
+
+
+
+
+        <!-- MAIN SECTION -->
+         <main>
+
+            <!-- Banner section -->
+            <section class="banner">
+                <div class="banner-card">
+                    <img src="./assets/images/John-Wick-3.jpg" class="banner-img" alt="">
+
+                    <div class="card-content">
+                        <div class="card-info">
+
+                            <div class="genre">
+                                <ion-icon name="film"></ion-icon>
+                                <span>Action/Thriller</span>
+                            </div>
+
+                            <div class="year">
+                                <ion-icon name="calendar"></ion-icon>
+                                <span>2019</span>
+                            </div>
+
+                            <div class="duration">
+                                <ion-icon name="time"></ion-icon>
+                                <span>2h 11m</span>
+                            </div>
+
+                            <div class="quality">4K</div>
+                        </div>
+
+                        <h2 class="card-title">John Wick: Chapter 3 - Parabellum</h2>
+                    </div>
+
+                </div>
+            </section>
+
+         </main>
+    </div>
+
+
+
+
+
+    <!-- javascript attached -->
+     <script src="./assets/js/main.js"></script>
+
+    <!-- ionicon pack attacted -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
